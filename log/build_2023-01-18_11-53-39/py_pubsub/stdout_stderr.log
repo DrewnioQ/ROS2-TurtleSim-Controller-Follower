@@ -1,0 +1,39 @@
+running develop
+/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/konrad/Desktop/ROS2_Project/build/py_pubsub/setup.py", line 5, in <module>
+    setup(
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
+    return run_commands(dist)
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
+    dist.run_commands()
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1208, in run_command
+    super().run_command(command)
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command
+    cmd_obj.ensure_finalized()
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+    self.finalize_options()
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 52, in finalize_options
+    easy_install.finalize_options(self)
+  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 311, in finalize_options
+    self.local_index = Environment(self.shadow_path + sys.path)
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1044, in __init__
+    self.scan(search_path)
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1077, in scan
+    self.add(dist)
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1096, in add
+    dists.sort(key=operator.attrgetter('hashcmp'), reverse=True)
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2631, in hashcmp
+    self.parsed_version,
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2678, in parsed_version
+    self._parsed_version = parse_version(self.version)
+  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+    raise InvalidVersion(f"Invalid version: '{version}'")
+pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '1.1build1'

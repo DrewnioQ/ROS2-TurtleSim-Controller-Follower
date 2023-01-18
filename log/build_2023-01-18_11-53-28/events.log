@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000726] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000753] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.100001] (-) TimerEvent: {}
+[0.200819] (-) TimerEvent: {}
+[0.302697] (-) TimerEvent: {}
+[0.403702] (-) TimerEvent: {}
+[0.504172] (-) TimerEvent: {}
+[0.605558] (-) TimerEvent: {}
+[0.707104] (-) TimerEvent: {}
+[0.807514] (-) TimerEvent: {}
+[0.907835] (-) TimerEvent: {}
+[0.959371] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/konrad/Desktop/ROS2_Project/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/konrad/Desktop/ROS2_Project/build/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'konrad', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/konrad', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.74.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pl_PL.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1341', 'SYSTEMD_EXEC_PID': '1521', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2253', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/konrad/Desktop/ROS2_Project/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'konrad', 'JOURNAL_STREAM': '8:23702', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'konrad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/konrad/.local/bin:/opt/ros/humble/bin:/home/konrad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/VirtualBox:@/tmp/.ICE-unix/1487,unix/VirtualBox:/tmp/.ICE-unix/1487', 'INVOCATION_ID': '8198ce4afaf840c28a5495bde5309970', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T2PWY1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f6dd1912fd.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/konrad/Desktop/ROS2_Project/install/py_pubsub:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/konrad/Desktop/ROS2_Project/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/konrad/Desktop/ROS2_Project/build/py_pubsub/prefix_override:/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages:/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.009214] (-) TimerEvent: {}
+[1.111461] (-) TimerEvent: {}
+[1.212758] (-) TimerEvent: {}
+[1.313816] (-) TimerEvent: {}
+[1.347259] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[1.347674] (py_pubsub) StderrLine: {'line': b'/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.347834] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.372025] (py_pubsub) StderrLine: {'line': b'/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.372203] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.414222] (-) TimerEvent: {}
+[1.506274] (py_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.507168] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/Desktop/ROS2_Project/build/py_pubsub/setup.py", line 5, in <module>\n'}
+[1.507251] (py_pubsub) StderrLine: {'line': b'    setup(\n'}
+[1.507312] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup\n'}
+[1.507427] (py_pubsub) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.507482] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup\n'}
+[1.507624] (py_pubsub) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[1.507721] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands\n'}
+[1.507787] (py_pubsub) StderrLine: {'line': b'    dist.run_commands()\n'}
+[1.507848] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands\n'}
+[1.507944] (py_pubsub) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[1.507994] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1208, in run_command\n'}
+[1.508039] (py_pubsub) StderrLine: {'line': b'    super().run_command(command)\n'}
+[1.508098] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command\n'}
+[1.508202] (py_pubsub) StderrLine: {'line': b'    cmd_obj.ensure_finalized()\n'}
+[1.508272] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized\n'}
+[1.508339] (py_pubsub) StderrLine: {'line': b'    self.finalize_options()\n'}
+[1.508408] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 52, in finalize_options\n'}
+[1.508477] (py_pubsub) StderrLine: {'line': b'    easy_install.finalize_options(self)\n'}
+[1.508544] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 311, in finalize_options\n'}
+[1.508637] (py_pubsub) StderrLine: {'line': b'    self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[1.508709] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1044, in __init__\n'}
+[1.508777] (py_pubsub) StderrLine: {'line': b'    self.scan(search_path)\n'}
+[1.508845] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1077, in scan\n'}
+[1.508913] (py_pubsub) StderrLine: {'line': b'    self.add(dist)\n'}
+[1.508981] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1096, in add\n'}
+[1.509049] (py_pubsub) StderrLine: {'line': b"    dists.sort(key=operator.attrgetter('hashcmp'), reverse=True)\n"}
+[1.509156] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2631, in hashcmp\n'}
+[1.509231] (py_pubsub) StderrLine: {'line': b'    self.parsed_version,\n'}
+[1.509299] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2678, in parsed_version\n'}
+[1.509418] (py_pubsub) StderrLine: {'line': b'    self._parsed_version = parse_version(self.version)\n'}
+[1.509486] (py_pubsub) StderrLine: {'line': b'  File "/home/konrad/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__\n'}
+[1.509536] (py_pubsub) StderrLine: {'line': b'    raise InvalidVersion(f"Invalid version: \'{version}\'")\n'}
+[1.509578] (py_pubsub) StderrLine: {'line': b"pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '1.1build1'\n"}
+[1.514708] (-) TimerEvent: {}
+[1.547284] (py_pubsub) CommandEnded: {'returncode': 1}
+[1.547892] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 1}
+[1.558323] (-) EventReactorShutdown: {}
