@@ -1,8 +1,8 @@
-/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher.py
-/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/test.py
+/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/follower.py
+/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/controller.py
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py
-/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher.cpython-310.pyc
-/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/test.cpython-310.pyc
+/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/follower.cpython-310.pyc
+/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/controller.cpython-310.pyc
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/__init__.cpython-310.pyc
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/share/ament_index/resource_index/packages/py_pubsub
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/share/py_pubsub/package.xml
@@ -14,4 +14,4 @@
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/entry_points.txt
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/PKG-INFO
 /home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/py_pubsub/controller
-/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/py_pubsub/show_window
+/home/konrad/Desktop/ROS2_Project/install/py_pubsub/lib/py_pubsub/follower

@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'controller = py_pubsub.publisher:main',
-                'show_window = py_pubsub.test:main'
+                'controller = py_pubsub.controller:main',
+                'follower = py_pubsub.follower:main'
         ],
     },
 )

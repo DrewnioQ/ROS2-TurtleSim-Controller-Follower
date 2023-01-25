@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-# from sensor_msgs.msg import Image # Image is the message type
+from sensor_msgs.msg import Image # Image is the message type
 from cv_bridge import CvBridge # ROS2 package to convert between ROS and OpenCV Images
 import cv2 # Python OpenCV library
 import numpy as np
@@ -24,6 +24,7 @@ class MinimalPublisher(Node):
         cv2.imshow(self.window_name, cv_image)
         cv2.waitKey(25)
         cv2.setMouseCallback(self.window_name)
+        
 
 def main(args=None):
     rclpy.init(args=args)
